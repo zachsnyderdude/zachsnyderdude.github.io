@@ -87,41 +87,99 @@
         <img src="images/table_of_contents.png" alt="table of contents" width="35%" class="topHeader">
 
         <section>
-            <table>
-                <tr>
-                    <td><a href="#game" class="top">Game Overview</a></td>
-                    <td><a href="#core" class="top">Core Mechanics</a></td>
-                    <td><a href="#starting" class="top">Starting Values</a></td>
-                    <td></td>
-                </tr>
+            <div class="tab-menu">
+                <button class="tab-button active" onclick="openTab(event, 'Overview')">Game Overview</button>
+                <button class="tab-button" onclick="openTab(event, 'Mechanics')">Core Mechanics</button>
+                <button class="tab-button" onclick="openTab(event, 'Values')">Starting Values</button>
+                <button class="tab-button" onclick="openTab(event, 'Decks')">Decks and Cards</button>
+                <button class="tab-button" onclick="openTab(event, 'EP')">Energy and Ability Points</button>
+                <button class="tab-button" onclick="openTab(event, 'Turns')">Turn Structure</button>
+                <button class="tab-button" onclick="openTab(event, 'Mats')">Pokémon Mats</button>
+                <button class="tab-button" onclick="openTab(event, 'Stats')">Stats</button>
+                <button class="tab-button" onclick="openTab(event, 'Attacking')">Attacking</button>
+                <button class="tab-button" onclick="openTab(event, 'Defending')">Defending</button>
+                <button class="tab-button" onclick="openTab(event, 'Leveling')">Leveling</button>
+                <button class="tab-button" onclick="openTab(event, 'Tokens')">Tokens</button>
+                <button class="tab-button" onclick="openTab(event, 'Cards')">Cards</button>
+                <button class="tab-button" onclick="openTab(event, 'Status')">Status Effects</button>
+                <button class="tab-button" onclick="openTab(event, 'Glossary')">Glossary</button>         
+            </div>
 
-                <tr>
-                    <td><a href="#decks" class="top">Decks and Cards</a></td>
-                    <td><a href="#points" class="top">Energy and Ability Points</a></td>
-                    <td></td>
-                    <td><a href="#turn" class="bottom">Turn Structure</a></td>
-                </tr>
+            <!-- The Tab Content -->
+            <div id="Overview" class="tab-content" style="display: block;">
+                <h2>Game Overview</h2>
+                <p>Pokémon Arena! is a head-to-head battle game...</p>
+            </div>
 
-                <tr>
-                    <td><a href="#mats" class="top">Pokemon Mats</a></td>
-                    <td colspan="2"><a href="#stats" class="middle">Stats</a></td>
-                    <td><a href="#attacking" class="bottom">Attacking</a></td>
-                </tr>
+            <div id="Mechanics" class="tab-content" style="display: none;">
+                <h2>Core Mechanics</h2>
+                <p>Each player selects one Pokemon to play as...</p>
+            </div>
 
-                <tr>
-                    <td><a href="#defending" class="top">Defending</a></td>
-                    <td></td>
-                    <td><a href="#leveling" class="bottom">Leveling Up</a></td>
-                    <td><a href="#tokens" class="bottom">Tokens</a></td>
-                </tr>
+            <div id="Values" class="tab-content" style="display: none;">
+                <h2>Starting Values</h2>
+                <p>Each Pokemon has a set of starting values...</p>
+            </div>
 
-                <tr>
-                    <td></td>
-                    <td><a href="#cards" class="bottom">Cards</a></td>
-                    <td><a href="#status" class="bottom">Status Effects</a></td>
-                    <td><a href="#glossary" class="bottom">Glossary</a></td>
-                </tr>
-            </table>
+            <div id="Decks" class="tab-content" style="display: none;">
+                <h2>Decks and Cards</h2>
+                <p>Each player builds a unique deck of cards...</p>
+            </div>
+
+            <div id="EP" class="tab-content" style="display: none;">
+                <h2>Energy and Ability Points</h2>
+                <p>Each Pokemon has a character mat...</p>
+            </div>
+
+            <div id="Turns" class="tab-content" style="display: none;">
+                <h2>Turn Structure</h2>
+                <p>Each turn consists of several phases...</p>
+            </div>
+
+            <div id="Mats" class="tab-content" style="display: none;">
+                <h2>Pokémon Mats</h2>
+                <p>Each Pokemon has a character mat...</p>
+            </div>
+
+            <div id="Stats" class="tab-content" style="display: none;">
+                <h2>Stats</h2>
+                <p>Each Pokemon has a set of stats...</p>
+            </div>
+
+            <div id="Attacking" class="tab-content" style="display: none;">
+                <h2>Attacking</h2>
+                <p>Each Pokemon has a set of attacks...</p>
+            </div>
+
+            <div id="Defending" class="tab-content" style="display: none;">
+                <h2>Defending</h2>
+                <p>Each Pokemon has a set of defensive abilities...</p>
+            </div>
+
+            <div id="Leveling" class="tab-content" style="display: none;">
+                <h2>Leveling</h2>
+                <p>Each Pokemon can be leveled up to increase their stats...</p>
+            </div>
+
+            <div id="Tokens" class="tab-content" style="display: none;">
+                <h2>Tokens</h2>
+                <p>Each Pokemon has a set of tokens...</p>
+            </div>
+
+            <div id="Cards" class="tab-content" style="display: none;">
+                <h2>Cards</h2>
+                <p>Each player builds a unique deck of cards...</p>
+            </div>
+            
+            <div id="Status" class="tab-content" style="display: none;">
+                <h2>Status Conditions</h2>
+                <p>Each Pokemon can be affected by various status conditions...</p>
+            </div>
+
+            <div id="Glossary" class="tab-content" style="display: none;">
+                <h2>Glossary</h2>
+                <p>Definitions of key terms used in the game...</p>
+            </div>
         </section>
 
         <br><br><br>
@@ -720,7 +778,7 @@
                 <img src="images/Cards/General Cards/take_down.png" alt="Take Down" width="20%" class="headers">
                 <img src="images/Cards/General Cards/headbutt.png" alt="Headbutt" width="20%" class="headers">
             </div>
-            
+
             <!--Normal Special Attack Cards-->
 
             <hr class="smallHr">
@@ -792,6 +850,28 @@
     </main>
 
     <footer></footer>
+
+    <script>
+        function openTab(evt, tabName) {
+        // Step 1: Hide all tab content
+        let tabcontent = document.getElementsByClassName("tab-content");
+        for (let i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Step 2: Remove the "active" class from all tab buttons
+        let tabbuttons = document.getElementsByClassName("tab-button");
+        for (let i = 0; i < tabbuttons.length; i++) {
+            tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+        }
+
+        // Step 3: Show the current tab, and add an "active" class to the button that opened it
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+    </script>
+
+
 </body>
 
 </html>
