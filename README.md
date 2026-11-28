@@ -1,16 +1,20 @@
-# React + Vite
+# Pokemon Arena! Rules (Web App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Hello! This is my fan game I made called "Pokemon Arena!". I made a physical version of this game back in May of 2026 over a few months and play tested it a bit to try and balance the game as best as I could while only play testing with two people. This web app is the rulebook to the game. This is my final project for CS295R at LCC.
 
-Currently, two official plugins are available:
+## Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is the link to this repo's website (the rules of Pokemon Arena!):
 
-## React Compiler
+[Pokemon Arena! Rules Web App](Pokemon-Arena-Rules.onrender.com)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is my current build/website for the actual game itself:
 
-## Expanding the Oxlint configuration
+- [Pokemon Arena! Game](https://pokegame-arena-zsnyde.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+This is my repo for the game linked above this:
+- [Pokemon Arena! Game GitHub Repo](https://github.com/ZachoBeans/Pokemon-Arena-Web-Game-CS212-Final.git)
+
+## How It Was Made
+
+I made this game with my own two hands. Cut out pieces and cards on stock board over and over and over and over again, until I had something that was at least playable. More for the actual game and how it was made, check out the README.md in my repo for the game. For this rules website project, I had made what I have so far at this moment in basic HTML and CSS a couple months after I made the game. I recently just had it refactored to use the React framework instead. I used Claude Sonnet 5.5 integrated into my IDE to refactor it.
