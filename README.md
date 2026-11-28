@@ -6,7 +6,7 @@ Hello! This is my fan game I made called "Pokemon Arena!". I made a physical ver
 
 This is the link to this repo's website (the rules of Pokemon Arena!):
 
-[Pokemon Arena! Rules Web App](Pokemon-Arena-Rules.onrender.com)
+- [Pokemon Arena! Rules Web App](https://pokemon-arena-rules.onrender.com)
 
 This is my current build/website for the actual game itself:
 
